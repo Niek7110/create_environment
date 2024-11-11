@@ -5,6 +5,7 @@
 下記コマンドでインストール
 ```shell
 $ curl -sSf https://rye.astral.sh/get | bash
+$ echo $SHELL
 $ echo 'source "$HOME/.rye/env"' >> ~/.zshrc # bashの場合は ~/.zshrc -> ~/.bashrc
 $ source "$HOME/.rye/env" #パスを通す
 ```
