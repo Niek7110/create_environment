@@ -1,0 +1,11 @@
+### 1. Ryeのインストール
+参考: https://rye-up.com/guide/installation/
+
+※ Macの場合
+下記コマンドでインストール
+```shell
+$ curl -sSf https://rye-up.com/get | bash
+$ echo 'source "$HOME/.rye/env"' >> ~/.zshrc # bashの場合は ~/.zshrc -> ~/.bashrc
+$ source "$HOME/.rye/env" #パスを通す
+```
+`rye --version`でバージョンが確認できたらOK
