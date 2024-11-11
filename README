@@ -11,4 +11,13 @@ $ source "$HOME/.rye/env" #パスを通す
 ```
 `rye --version`でバージョンが確認できたらOK
 
-
+pyproject.toml
+[project]
+name = "src"
+version = "0.1.0"
+description = "Add your description here"
+authors = []
+dependencies = [
+    "fastapi>=0.111.1",
+    "uvicorn>=0.30.3",
+]
