@@ -21,6 +21,12 @@ dependencies = [
     "fastapi>=0.111.1",
     "uvicorn>=0.30.3",
 ]
-
+pyproject.tomlと同じところに、srcディレクトリを作成
+その配下にmain.pyを作成
+中身は下記をコピー
+from fastapi import FastAPI
+ app = FastAPI()
 上記を作って、下記のコマンドをターミナルで実行
 rye run uvicorn src.main:app --reload
+
+立ち上がったら
